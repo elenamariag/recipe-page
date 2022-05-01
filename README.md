@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Inleiding
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tegenwoordig wordt alles gedigitaliseerd. Daarom wil ik met mijn applicatie de gebruiker de mogelijkheid geven, om hun
+recepten online te kunnen uploaden! Naast het uploaden van eigen recepten, kan de gebruiker ook andere recepten opzoeken
+en kan de gebruiker ook de naam van een land aangeven en passende recepten hier in terug vinden.
 
-## Available Scripts
 
-In the project directory, you can run:
+## 'npm install'
 
-### `npm start`
+Om de code te runnen, installeer je eerst alle dependencies. Dit doe je door je in je terminal 'npm install' te toetsen,
+dit doe je zonder de ''. Vervolgens druk je op enter en worden alle dependencies automatisch geïnstalleerd.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Wanneer het installeert is, kan je de code runnen door 'npm start' in te typen in de terminal.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Sign Up
 
-### `npm test`
+Om gebruik te kunnen maken van de applicatie, moet je eerst een account hebben aangemaakt en ingelogd zijn. Dit doe je
+door op de login button te drukken. Via de sign-up, kan je je gegevens invullen, hier heb je de volgende informatie
+voor nodig:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Username: Dit mag je zelf invullen
+Email: Dit mag je zelf invullen
+Password: LET OP! Dit moeten 6 karakters bevatten
+User: user
 
-### `npm run build`
+Kijk maar naar het voorbeeld hieronder:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](../../Desktop/signup.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Zodra je geregistreerd staat, voer je je username en password in om in te loggen.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Search recipes
+Om recepten op te zoeken kan je dit in de zoekbalk zoeken. Let wel op dat de gerechten voornamelijk in het engels
+er in staan. Zodra je het ingetoets hebt, druk je op het zoek-icoon. Omdat de API wat trager is, kan het zijn dat je er
+twee keer op moet drukken. Als je een gerecht gevonden hebt, kan je er op aanklikken en zie je hoe het gerecht
+gemaakt kan worden.
 
-### `npm run eject`
+### My Recipe
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Via My Recipes, kan je al je toegevoegde recepten zien. Omdat je nog niks geüpload hebt, kan dit leeg staan.
+Als je op de add-recipe button klikt, kan je hier je recept toevoegen.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Hier kan je alleen een afbeelding toevoegen. Zodra je alles ingevuld hebt en je op de
+"Upload my delicious recipe" drukt.... Tada!! Het staat nu automatisch op je myrecipes pagina.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Hier in kan je nu al je heerlijke recepten uploaden! Dit ziet er als het goed is, zo uit:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![](![](src/assets/addrecepie.png))
