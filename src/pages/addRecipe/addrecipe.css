@@ -1,0 +1,138 @@
+.MyRecipies{
+    overflow-x: hidden !important;
+}
+.recipe-container{
+    display: flex;
+    flex-direction: row;
+    margin-left:2%;
+    margin-top: 2%;
+}
+.recipe-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+.preview-img{
+    width: 200px;
+    height: 150px;
+    background-color: gray;
+
+
+}
+.recipe-img img{
+
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.recipe-img{
+    position: relative;
+    width: 200px;
+    height: 150px;
+    box-sizing: content-box;
+    overflow: hidden;
+
+
+}
+.image-chooser{
+    margin-top: 20px;
+}
+.select-food-title{
+    border: none !important;
+    outline: none !important;
+    padding: 10px 20px;
+    border-bottom: 1px solid black !important;
+}
+.select-food-title::placeholder{
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+
+}
+.Add-ingredients::placeholder{
+    font-size: 15px;
+    color: black;
+}
+.Add-ingredients{
+    border: none !important;
+    outline: none !important;
+    background-color: transparent;
+    width:100%
+
+}
+.add-ingredient{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.addingredient-header{
+    padding: 5px 20px;
+    background-color:  #F9F7CF;
+    display: inline-block;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+
+    box-sizing: border-box;
+    position: relative;
+    width: 80%;
+
+
+}
+.AddButton{
+    cursor: pointer;
+}
+.ingredient-list-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.origin-text{
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.origin-text::placeholder{
+    color: black;
+    font-weight: bold;
+}
+.select-category{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    width: 180px;
+}
+select{
+    padding: 10px 10px;
+    background-color: #F9F7CF;
+    border-radius: 20px;
+    border: none;
+}
+.select-category div{
+    display: inline-block;
+}
+.upload-recipe-btn-container{
+    margin-top: 20px;
+}
+.upload-recipe-btn{
+    background-color: #F9F7CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+.product-ingredients{
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px
+}

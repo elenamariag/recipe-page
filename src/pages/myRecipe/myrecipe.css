@@ -1,0 +1,12 @@
+.Add-recipe-btn-container{
+    position: absolute;
+    right: 20px;
+    top:20px
+}
+.add-recipe-btn{
+    background: #F9F7CF;
+    border-radius: 40px;
+    padding: 8px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}

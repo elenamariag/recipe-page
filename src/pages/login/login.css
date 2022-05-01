@@ -1,0 +1,142 @@
+.home-container{
+    background-image: url(../../assets/food.jpeg);
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+.home-container::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0,0.4);
+
+
+}
+.login-container{
+    width: 40%;
+    position: relative;
+    border-radius: 20px;
+    z-index: 2;
+    transition: all .3s ease;
+    overflow: hidden;
+    box-shadow: 0px 10px 8px rgb(0, 0, 0,0.5);
+    z-index: 1;
+}
+.login-container::after{
+    position: absolute;
+    content: '';
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  #BBBBBB;
+    opacity: 0.4;
+    z-index: -1;
+}
+.login-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    border-bottom:2px solid #3333334f ;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+.login-header::after{
+    position: absolute;
+    content: '';
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  #BBBBBB;
+    opacity: 0.4;
+    z-index: -1;
+}
+.header-text,.header-text1{
+    font-size: 24px;
+    font-family: Satoshi-Bold;
+    color:black;
+    position: relative;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.dull-text{
+    color: rgb(235, 220, 220);
+    position: relative;
+    transition: all .3s ease;
+    text-decoration: none;
+
+}
+.login-screen .input-group, .signup-screen .input-group{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.login-screen .input-group input, .signup-screen .input-group input{
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: wheat;
+    border: 1px solid grey;
+    outline: none;
+}
+.login-screen .input-group input::placeholder, .signup-screen .input-group input::placeholder{
+    color: wheat;
+}
+.dull-text:hover{
+    color: white;
+}
+
+.login-screen,.signup-screen{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.home-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.hm-btn{
+    padding: 5px 10%;
+    border: 1px solid #F9F7CF;
+    background-color:  #F9F7CF;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0,0.3);
+    font-family: Satoshi-Bold;
+}
+.input-group-text{
+    background-color: #89CFF0 !important;
+    color: white;
+}
+#mylogin{
+    transition: all .3s ease;
+
+    width: 100%;
+}
+#mysignup{
+    transition: all .3s ease;
+    transform: translateX(100%);
+    display: none;
+    width: 100%;
+
+}
+.my-credentials-container{
+    display: flex;
+    flex-direction: row;
+}

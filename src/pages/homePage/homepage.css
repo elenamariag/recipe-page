@@ -1,0 +1,13 @@
+.Our-home{
+    background-image: url(../../assets/food.jpeg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
