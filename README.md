@@ -31,6 +31,8 @@ User: user
 
 Kijk maar naar het voorbeeld hieronder:
 
+<img width="928" alt="signup" src="https://user-images.githubusercontent.com/94354993/166163813-96362a6d-e481-4d0a-a042-5257a728d8d6.png">
+
 ![](../../Desktop/signup.png)
 
 Zodra je geregistreerd staat, voer je je username en password in om in te loggen.
@@ -52,4 +54,5 @@ Hier kan je alleen een afbeelding toevoegen. Zodra je alles ingevuld hebt en je 
 
 Hier in kan je nu al je heerlijke recepten uploaden! Dit ziet er als het goed is, zo uit:
 
-![](![](src/assets/addrecepie.png))
+
+![](![](src/assets/addrecepie.png))<img width="1422" alt="addrecepie" src="https://user-images.githubusercontent.com/94354993/166163795-88d42293-65dd-4157-9345-f5abc7a58b72.png">
