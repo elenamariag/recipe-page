@@ -1,11 +1,10 @@
 import React,{useState,useEffect} from 'react';
 import "./dashboard.css";
-import HeaderOne from "../../components/header/HeaderOne";
+import HeaderOne from "../../components/headerOne/HeaderOne";
 import {useNavigate} from "react-router-dom";
-import Card from "../../components/Card/Card";
+import Card from "../../components/card/Card";
 import profile from "../../assets/profile.png";
 import axios from "axios";
-import {APP_ID, APP_KEY} from "../../.env/hidedata";
 
 
 const Dashboard = () => {
@@ -15,6 +14,9 @@ const Dashboard = () => {
     const[SearchData,SetSearchData]=useState("")
     const[loader,setLoader]=useState("")
     const navigate=useNavigate()
+
+    const APP_ID = "a52b4d43";
+    const APP_KEY = "e0e5c667605f5e91d8275c973531b80a";
 
     const ButtonClicked=()=>{
         setShow(!show)

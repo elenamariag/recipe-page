@@ -1,8 +1,8 @@
 import React,{useState,useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../dashBoard/dashboard.css';
-import HeaderOne from '../../components/header/HeaderOne';
-import Card1 from '../../components/Card/Card1';
+import HeaderOne from '../../components/headerOne/HeaderOne';
+import Card1 from '../../components/card/Card1';
 import './myrecipe.css';
 import profile from "../../assets/profile.png";
 

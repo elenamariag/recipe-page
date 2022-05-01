@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 import "./addrecipe.css";
-import HeaderOne from '../../components/header/HeaderOne';
+import HeaderOne from '../../components/headerOne/HeaderOne';
 import profile from '../../assets/profile.png';
 import '../dashBoard/dashboard.css';
 

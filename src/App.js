@@ -1,8 +1,8 @@
 import './App.css';
 import {BrowserRouter as Router, Switch, Route, Link, Routes} from "react-router-dom";
 import HomePage from "./pages/homePage/HomePage";
-import Login from "./pages/login/LogIn";
-import Dashboard from "./pages/dashBoard/Dashboard";
+import Login from "./pages/login/Login";
+import Dashboard from "./pages/dashBoard/DashBoard";
 import Product from "./pages/product/Product";
 import AddRecipe from "./pages/addRecipe/AddRecipe";
 import MyRecipe from "./pages/myRecipe/MyRecipe";

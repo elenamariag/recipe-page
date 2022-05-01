@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 import "./product.css";
-import HeaderOne from "../../components/header/HeaderOne";
+import HeaderOne from "../../components/headerOne/HeaderOne";
 
 const Product = () => {
     const location=useLocation()
